@@ -141,7 +141,7 @@
     "@ethersproject/contracts": "^5.0.0-beta",
     "@ethersproject/networks": "^5.0.0-beta",
     "@ethersproject/providers": "^5.0.0-beta",
-    "@ethersproject/solidity": "^5.0.0-beta",
+    "@ethersproject/solidity": "^5.5.0",
     "@uniswap/sdk": "^3.0.3-beta.1"
   }
 }

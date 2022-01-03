@@ -1242,6 +1242,15 @@
     "@ethersproject/logger" "^5.0.5"
     bn.js "^4.4.0"
 
+"@ethersproject/bignumber@^5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@ethersproject/bignumber/-/bignumber-5.5.0.tgz#875b143f04a216f4f8b96245bde942d42d279527"
+  integrity sha512-6Xytlwvy6Rn3U3gKEc1vP7nR92frHkv6wtVr95LFR3jREXiCPzdWxKQ1cx4JGQBXxcguAwjA8murlYN2TSiEbg==
+  dependencies:
+    "@ethersproject/bytes" "^5.5.0"
+    "@ethersproject/logger" "^5.5.0"
+    bn.js "^4.11.9"
+
 "@ethersproject/bytes@^5.0.4":
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/@ethersproject/bytes/-/bytes-5.0.4.tgz#328d9d929a3e970964ecf5d62e12568a187189f1"
@@ -1249,12 +1258,26 @@
   dependencies:
     "@ethersproject/logger" "^5.0.5"
 
+"@ethersproject/bytes@^5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@ethersproject/bytes/-/bytes-5.5.0.tgz#cb11c526de657e7b45d2e0f0246fb3b9d29a601c"
+  integrity sha512-ABvc7BHWhZU9PNM/tANm/Qx4ostPGadAuQzWTr3doklZOhDlmcBqclrQe/ZXUIj3K8wC28oYeuRa+A37tX9kog==
+  dependencies:
+    "@ethersproject/logger" "^5.5.0"
+
 "@ethersproject/constants@^5.0.3":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@ethersproject/constants/-/constants-5.0.3.tgz#7ccb8e2e9f14fbcc2d52d0e1402a83a5613a2f65"
   integrity sha512-iN7KBrA0zNFybDyrkcAPOcyU3CHXYFMd+KM2Jr07Kjg+DVB5wPpEXsOdd/K1KWFsFtGfNdPZ7QP8siLtCePXrQ==
   dependencies:
     "@ethersproject/bignumber" "^5.0.6"
+
+"@ethersproject/constants@^5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@ethersproject/constants/-/constants-5.5.0.tgz#d2a2cd7d94bd1d58377d1d66c4f53c9be4d0a45e"
+  integrity sha512-2MsRRVChkvMWR+GyMGY4N1sAX9Mt3J9KykCsgUFd/1mwS0UH1qw+Bv9k1UJb3X3YJYFco9H20pjSlOIfCG5HYQ==
+  dependencies:
+    "@ethersproject/bignumber" "^5.5.0"
 
 "@ethersproject/contracts@^5.0.0-beta", "@ethersproject/contracts@^5.0.3":
   version "5.0.3"
@@ -1336,10 +1359,23 @@
     "@ethersproject/bytes" "^5.0.4"
     js-sha3 "0.5.7"
 
+"@ethersproject/keccak256@^5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@ethersproject/keccak256/-/keccak256-5.5.0.tgz#e4b1f9d7701da87c564ffe336f86dcee82983492"
+  integrity sha512-5VoFCTjo2rYbBe1l2f4mccaRFN/4VQEYFwwn04aJV2h7qf4ZvI2wFxUE1XOX+snbwCLRzIeikOqtAoPwMza9kg==
+  dependencies:
+    "@ethersproject/bytes" "^5.5.0"
+    js-sha3 "0.8.0"
+
 "@ethersproject/logger@^5.0.5":
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/@ethersproject/logger/-/logger-5.0.5.tgz#e3ba3d0bcf9f5be4da5f043b1e328eb98b80002f"
   integrity sha512-gJj72WGzQhUtCk6kfvI8elTaPOQyMvrMghp/nbz0ivTo39fZ7IjypFh/ySDeUSdBNplAwhzWKKejQhdpyefg/w==
+
+"@ethersproject/logger@^5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@ethersproject/logger/-/logger-5.5.0.tgz#0c2caebeff98e10aefa5aef27d7441c7fd18cf5d"
+  integrity sha512-rIY/6WPm7T8n3qS2vuHTUBPdXHl+rGxWxW5okDfo9J4Z0+gRRZT0msvUdIJkE4/HS29GUMziwGaaKO2bWONBrg==
 
 "@ethersproject/networks@^5.0.0-beta", "@ethersproject/networks@^5.0.3":
   version "5.0.3"
@@ -1413,6 +1449,15 @@
     "@ethersproject/logger" "^5.0.5"
     hash.js "1.1.3"
 
+"@ethersproject/sha2@^5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@ethersproject/sha2/-/sha2-5.5.0.tgz#a40a054c61f98fd9eee99af2c3cc6ff57ec24db7"
+  integrity sha512-B5UBoglbCiHamRVPLA110J+2uqsifpZaTmid2/7W5rbtYVz6gus6/hSDieIU/6gaKIDcOj12WnOdiymEUHIAOA==
+  dependencies:
+    "@ethersproject/bytes" "^5.5.0"
+    "@ethersproject/logger" "^5.5.0"
+    hash.js "1.1.7"
+
 "@ethersproject/signing-key@^5.0.4":
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/@ethersproject/signing-key/-/signing-key-5.0.4.tgz#a5334ce8a52d4e9736dc8fb6ecc384704ecf8783"
@@ -1423,7 +1468,7 @@
     "@ethersproject/properties" "^5.0.3"
     elliptic "6.5.3"
 
-"@ethersproject/solidity@^5.0.0-beta", "@ethersproject/solidity@^5.0.3":
+"@ethersproject/solidity@^5.0.3":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@ethersproject/solidity/-/solidity-5.0.3.tgz#178197cb2f19d2986dadd515928c5dba3cb27e55"
   integrity sha512-a6ni4OIj1e+JrvDiuLVqygYmAh53Ljk5iErkjzPgFBY8dz9xQfDxhpASjOZY0lzCf+N125yeK9N7Vm3HI7OLzQ==
@@ -1434,6 +1479,18 @@
     "@ethersproject/sha2" "^5.0.3"
     "@ethersproject/strings" "^5.0.3"
 
+"@ethersproject/solidity@^5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@ethersproject/solidity/-/solidity-5.5.0.tgz#2662eb3e5da471b85a20531e420054278362f93f"
+  integrity sha512-9NgZs9LhGMj6aCtHXhtmFQ4AN4sth5HuFXVvAQtzmm0jpSCNOTGtrHZJAeYTh7MBjRR8brylWZxBZR9zDStXbw==
+  dependencies:
+    "@ethersproject/bignumber" "^5.5.0"
+    "@ethersproject/bytes" "^5.5.0"
+    "@ethersproject/keccak256" "^5.5.0"
+    "@ethersproject/logger" "^5.5.0"
+    "@ethersproject/sha2" "^5.5.0"
+    "@ethersproject/strings" "^5.5.0"
+
 "@ethersproject/strings@^5.0.3":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@ethersproject/strings/-/strings-5.0.3.tgz#756cc4b93203a091966d40824b0b28048e2d5d9b"
@@ -1442,6 +1499,15 @@
     "@ethersproject/bytes" "^5.0.4"
     "@ethersproject/constants" "^5.0.3"
     "@ethersproject/logger" "^5.0.5"
+
+"@ethersproject/strings@^5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@ethersproject/strings/-/strings-5.5.0.tgz#e6784d00ec6c57710755699003bc747e98c5d549"
+  integrity sha512-9fy3TtF5LrX/wTrBaT8FGE6TDJyVjOvXynXJz5MT5azq+E6D92zuKNx7i29sWW2FjVOaWjAsiZ1ZWznuduTIIQ==
+  dependencies:
+    "@ethersproject/bytes" "^5.5.0"
+    "@ethersproject/constants" "^5.5.0"
+    "@ethersproject/logger" "^5.5.0"
 
 "@ethersproject/transactions@^5.0.3":
   version "5.0.3"
@@ -3836,6 +3902,11 @@ bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.10.0, bn.js@^4.11.0, bn.js@^4.11.1, bn.js@^
   version "4.11.9"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.9.tgz#26d556829458f9d1e81fc48952493d0ba3507828"
   integrity sha512-E6QoYqCKZfgatHTdHzs1RRKP7ip4vvm+EyRUeE2RF0NblwVvb0p6jSVeNTOFxPn26QXN2o6SMfNxKp6kU8zQaw==
+
+bn.js@^4.11.9:
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.12.0.tgz#775b3f278efbb9718eec7361f483fb36fbbfea88"
+  integrity sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==
 
 bn.js@^5.1.1:
   version "5.1.3"

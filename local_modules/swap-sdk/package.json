@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "big.js": "^5.2.2",
-    "decimal.js-light": "^2.5.0",
+    "decimal.js-light": "^2.5.1",
     "jsbi": "^3.1.1",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3",

@@ -137,7 +137,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@ethersproject/address": "^5.0.0-beta",
+    "@ethersproject/address": "^5.5.0",
     "@ethersproject/contracts": "^5.0.0-beta",
     "@ethersproject/networks": "^5.0.0-beta",
     "@ethersproject/providers": "^5.0.0-beta",
